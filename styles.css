@@ -1,0 +1,79 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.card {
+    margin: auto;
+    transition: 0.5s;
+  }
+
+.card:hover {
+    transform: translatey(-10px);
+  }
+
+.pad{
+    padding-top: 20px;
+}
+
+.fex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pad2{
+  padding-top: 10px;
+}
+
+.d-flex a:hover {
+  border-bottom: 3px solid red;
+}
+
+.d-flex a.active {
+  border-bottom: 3px solid red;
+}
+
+.bar{
+  background-color: black;
+  width: 100%;
+  height: 9%;
+}
+
+.text-box{
+  margin-top: 35%;
+  padding: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .bar {
+    height: 15%;
+  }
+  .pad2{
+    align-items: center;
+  }
+  .fex{
+    flex-direction: column;
+  }
+  .text-box{
+    margin-top: auto;
+  }
+}
+
+.content{
+  width: 100%;
+  height: 90vh;
+  /* background-color: black; */
+}
+
+.box1{
+  /* background-color: red; */
+  padding: 50px;
+}
