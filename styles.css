@@ -63,7 +63,7 @@ footer {
     flex-direction: column;
   }
   .text-box{
-    margin-top: auto;
+    margin-top: -25px;
   }
 }
 
